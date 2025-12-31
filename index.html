@@ -1082,18 +1082,6 @@
   </div>
 
 
-  <div id="hostingPopup" class="hosting-popup">
-    <div class="hosting-content">
-      <h3>🌟 Make This Surprise Even Bigger! 🌟</h3>
-      <p>This page is currently running locally, but to share the magic with your friends from anywhere, host it online!</p>
-      <p>Easy steps:</p>
-      <ul>
-        <li>Upload to GitHub and use GitHub Pages</li>
-        <li>Or use free hosting like Netlify, Vercel</li>
-      </ul>
-      <button class="surprise-btn" onclick="closeHostingPopup()">Got it! 🎉</button>
-    </div>
-  </div>
 
 <script>
 // Countdown to New Year
@@ -1594,13 +1582,7 @@ function megaSurprise() {
   }
 }
 
-function closeHostingPopup() {
-  document.getElementById('hostingPopup').style.display = 'none';
-}
 
-setTimeout(() => {
-  document.getElementById('hostingPopup').style.display = 'block';
-}, 4000);
 
 function typeWriter(element, text, speed = 50) {
   let i = 0;
